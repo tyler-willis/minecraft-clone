@@ -140,11 +140,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chunkCoord: {x: 0, y: 0}
-  waterLevel: 60
-  noiseMult: 0.01
-  noiseHeightMult: 80
-  caveNoiseMult: 0.111
+  waterLevel: 64
   caveThreshhold: 21
+  caveHeight: 70
 --- !u!33 &6939894522089971680
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -185,7 +183,7 @@ MeshRenderer:
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
+  m_MinimumChartSize: 2
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
